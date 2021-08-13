@@ -1,12 +1,12 @@
 {% set name = "accimage" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/pytorch/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: '573c56866a42683c7cf25185620fe82ec2ce78468e0621c29fac8f4134a785f5'
+  sha256: '2122fa7ac3c570975fac47ad3d4d1fdbaefedf27430cba70efb674e83de3450b'
 
 build:
   skip: true  # [not linux]
