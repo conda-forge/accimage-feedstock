@@ -10,7 +10,7 @@ source:
 
 build:
   skip: true  # [not linux]
-  number: 5
+  number: 6
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
