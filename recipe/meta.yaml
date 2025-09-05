@@ -20,6 +20,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
     - libjpeg-turbo
     - intel-ipp
   run:
